@@ -17,7 +17,6 @@ function App() {
       <Topbar/>
       <div className="container">
         <Sidebar/>
-        {/* <div className="others">other pages</div> */}
         <Routes>
           <Route path='/' element={ <Home/> }/>
           <Route path='/users' element={ <UserList/>}/>
