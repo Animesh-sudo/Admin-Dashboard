@@ -9,7 +9,7 @@ const Sidebar = () => {
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Dashbord</h3>
                 <ul className="sidebarList">
-                    <Link to='/' className='sidebarLink'>
+                    <Link to='/Admin-Dashboard/' className='sidebarLink'>
                         <li className="sidebarListItem active">
                             <LineStyle className='sidebarIcon'/>
                             Home
@@ -28,13 +28,13 @@ const Sidebar = () => {
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Quick Menu</h3>
                 <ul className="sidebarList">
-                    <Link to='/users' className='sidebarLink'>
+                    <Link to='/Admin-Dashboard/users' className='sidebarLink'>
                         <li className="sidebarListItem">
                             <PermIdentity  className='sidebarIcon'/>
                             Users
                         </li>
                     </Link>
-                    <Link to='/products' className='sidebarLink'>
+                    <Link to='/Admin-Dashboard/products' className='sidebarLink'>
                         <li className="sidebarListItem">
                             <Storefront className='sidebarIcon'/>
                             Products
